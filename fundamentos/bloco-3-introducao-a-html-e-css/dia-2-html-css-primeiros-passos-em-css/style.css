@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(186, 199, 170);
+  font-size: 16px;
+}
+h1 {
+  color: orange;
+  font-size: 65px;
+  font-family: sans-serif;
+}
+#yellow {
+  color: yellow;
+}
+#red {
+  color: red;
+}
+#brown {
+  color: brown;
+}
+.cordefundo {
+  background-color: white;
+  font-style: italic;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+p {
+  font-size: 3em;
+  font-weight: 600;
+}
