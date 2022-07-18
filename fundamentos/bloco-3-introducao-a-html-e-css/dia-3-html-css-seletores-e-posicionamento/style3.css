@@ -1,0 +1,44 @@
+ol {
+  background-color: yellow;
+}
+li.impar{
+  text-transform: uppercase;
+}
+li.par {
+  color: green;
+}
+h1,h3{
+  color: red;
+}
+h1.italic{
+  font-size: 40px;
+  border: 1px solid black;
+}
+li {
+  font-size: 20px;
+}
+li.xx{
+  font-weight: bolder;
+}
+li.linguagem{
+  color: blue;
+}
+li.rosa{
+  background-color: pink;
+  color: blue;
+}
+ul.aliados :hover{
+  font-weight: bold;
+}
+li.green :hover{
+  color: green;
+}
+li.orange :hover{
+  color: orange;
+}
+li.black :hover{
+  color: black;
+}
+li.yellow :hover{
+  color: yellow;
+}
