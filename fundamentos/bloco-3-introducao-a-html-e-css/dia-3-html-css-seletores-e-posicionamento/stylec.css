@@ -1,0 +1,15 @@
+p, h1 {
+  text-align: center;
+
+}
+li:hover{
+  background-color: aqua;
+  transition: all;
+}
+li:active{
+  font-family: 'Courier New', Courier, monospace;
+  transition: all;
+}
+.lista{
+  list-style: none;
+}
