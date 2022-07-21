@@ -1,13 +1,11 @@
-const q = 12;
-const w = 1;
-const e = 5;
+const a = 10;
+const b = 20;
 
-if (q > w && q > e) {
-  return q;
-} else if (w > q && w > e) {
-  return w;
-} else if (e > q && e > w) {
-  return e;
-} else {
-  return 0;
+function retornaMaiorde2(a, b) {
+  if (a > b) {
+    return a;
+  } else {
+    return b;
+  }
 }
+console.log(retornaMaiorde2);
