@@ -33,3 +33,15 @@ if (e > f && e > g) {
 } else {
   console.log("O maior número é: " + g + " (g)");
 }
+
+// Exercicio 4 //
+
+const number = 4;
+
+if (number > 0) {
+  console.log("positive");
+} else if (number < 0) {
+  console.log("negative");
+} else {
+  console.log("zero");
+}
