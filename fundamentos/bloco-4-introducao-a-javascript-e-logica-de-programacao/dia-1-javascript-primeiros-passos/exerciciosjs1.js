@@ -127,3 +127,62 @@ if (numeroA % 2 === 0 || numeroB % 2 === 0 || numeroC === 0) {
 } else {
   console.log(false);
 }
+
+// Exercicio 9 //
+
+const ab = 1;
+const bc = 3;
+const cd = 5;
+
+let isOdd = false;
+
+if (ab % 2 !== 0 || bc % 2 !== 0 || cd % 2 !== 0) {
+  isOdd = true;
+}
+console.log(isOdd);
+
+// Exercicio 10 //
+
+const costOfProduct = 1;
+const saleValue = 3;
+
+if (costOfProduct >= 0 && saleValue >= 0) {
+  const totalCostOfProduct = costOfProduct * 1.2;
+  const totalProfit = (saleValue - totalCostOfProduct) * 1000;
+  console.log(totalProfit);
+} else {
+  console.log("Error, os valores não podem ser negativos");
+}
+
+// Exercicio 11 //
+
+let aliquotINSS;
+let aliquotIR;
+
+const grossSalary = 2000.0;
+
+if (grossSalary <= 1556.94) {
+  aliquotINSS = grossSalary * 0.08;
+} else if (grossSalary <= 2594.92) {
+  aliquotINSS = grossSalary * 0.09;
+} else if (grossSalary <= 5189.82) {
+  aliquotINSS = grossSalary * 0.11;
+} else {
+  aliquotINSS = 570.88;
+}
+
+const baseSalary = grossSalary - aliquotINSS;
+
+if (baseSalary <= 1903.98) {
+  aliquotIR = 0;
+} else if (baseSalary <= 2826.65) {
+  aliquotIR = baseSalary * 0.075 - 142.8;
+} else if (baseSalary <= 3751.05) {
+  aliquotIR = baseSalary * 0.15 - 354.8;
+} else if (baseSalary <= 4664.68) {
+  aliquotIR = baseSalary * 0.225 - 636.13;
+} else {
+  aliquotIR = baseSalary * 0.275 - 869.36;
+}
+
+console.log("Salário: " + (baseSalary - aliquotIR));
