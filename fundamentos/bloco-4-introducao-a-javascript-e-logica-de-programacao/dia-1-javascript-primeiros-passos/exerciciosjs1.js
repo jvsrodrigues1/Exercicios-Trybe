@@ -45,3 +45,53 @@ if (number > 0) {
 } else {
   console.log("zero");
 }
+
+// Exercicio 5 //
+
+let angleA = 100;
+let angleB = 30;
+let angleC = 50;
+
+let sumOfAngles = angleA + angleB + angleC;
+
+let allAnglesArePositive = angleA > 0 && angleB > 0 && angleC > 0;
+
+if (allAnglesArePositive) {
+  if (sumOfAngles === 180) {
+    console.log(true);
+  } else {
+    console.log(false);
+  }
+} else {
+  console.log("Erro Angulo Invalido");
+}
+
+// Exercicio 6 //
+
+const chessPiece = "bispo";
+
+switch (chessPiece.toLowerCase()) {
+  case "rei":
+    console.log("Rei-> Uma casa apenas para qualquer direção.");
+    break;
+  case "bispo":
+    console.log("Bispo-> Diagonal.");
+    break;
+  case "rainha":
+    console.log("Rainha-> Diagonal, horizontal e vertical.");
+    break;
+  case "cavalo":
+    console.log('Cavalo -> "L" pode pular sobre as peças.');
+    break;
+  case "torre":
+    console.log("Torre -> Horizontal e vertical.");
+    break;
+  case "peão":
+    console.log(
+      "Peão -> Apenas uma casa para frente, no primeiro movimento podem ser duas casas."
+    );
+    break;
+  default:
+    console.log("Erro, peça inválida!");
+    break;
+}
