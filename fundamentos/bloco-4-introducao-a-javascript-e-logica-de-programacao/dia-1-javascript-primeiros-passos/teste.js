@@ -1,17 +1,11 @@
-let angleA = 100;
-let angleB = 30;
-let angleC = -1;
+// Exercicio 8 //
 
-let sumOfAngles = angleA + angleB + angleC;
+const numeroA = 10;
+const numeroB = 20;
+const numeroC = 20;
 
-let allAnglesArePositive = angleA > 0 && angleB > 0 && angleC > 0;
-
-if (allAnglesArePositive) {
-  if (sumOfAngles === 180) {
-    console.log(true);
-  } else {
-    console.log(false);
-  }
+if (numeroA % 2 === 0 || numeroB % 2 === 0 || numeroC === 0) {
+  console.log(true);
 } else {
-  console.log("Erro Angulo Invalido");
+  console.log(false);
 }
